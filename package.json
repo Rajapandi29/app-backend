@@ -1,0 +1,15 @@
+{
+  "name": "azure-shopping-backend",
+  "version": "1.0.0",
+  "main": "src/functions/*.js",
+  "scripts": {
+    "start": "func start"
+  },
+  "dependencies": {
+    "@azure/functions": "^4.7.0",
+    "@azure/cosmos": "^4.9.0",
+    "@azure/identity": "^4.6.0",
+    "@azure/keyvault-secrets": "^4.9.0",
+    "@azure/storage-blob": "^12.27.0"
+  }
+}
